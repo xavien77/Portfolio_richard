@@ -1,0 +1,65 @@
+body {
+    font-family: 'Andale Mono', monospace;
+    font-weight: 300;
+    margin: 0;
+    background-color: black;
+}
+
+header {
+    padding: 20px 0;
+    margin:0;   
+    background-image: url('https://images.wallpaperscraft.com/image/single/code_text_colorful_140555_1920x1080.jpg');
+}    
+
+header .row {
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+header h2 {
+    font-weight: 700;
+    margin: 0;
+    font-size: 5vw;
+    letter-spacing: 10vw;
+}
+
+header nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+header p {
+    padding: 0 20px;
+    margin: 0;
+    font-size: larger;
+}
+
+.btn.btn-primary {
+    background-color: #1DB954;
+    color: white;
+    margin: 10px;
+    letter-spacing: 5px;
+}
+
+.jumbotron.jumbotron-fluid{
+    background-color: black;
+    color: white;
+    font-size: 20vw;
+    margin: 0;
+    padding: 0;
+}
+
+.jumbotron.jumbotron-fluid h1 {
+    font-size: 5vw;
+}
+
+.container ul {
+    font-family: Brush Script MT;
+    font-size: 3vw;
+}
+
+.container a {
+    color: white;
+}
+
